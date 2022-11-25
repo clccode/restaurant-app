@@ -1,0 +1,179 @@
+/* Body, headings */
+
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    font-size: 20px;
+} 
+
+h3 {
+    text-align: center;
+}
+
+.header-img {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+
+.main-title {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color: white;
+}
+
+.subtitle {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: white;
+}
+
+/* Menu section */
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid lightgray;
+}
+
+.emoji {
+    font-size: 64px;
+}
+
+.details {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+    padding-top: 50px;
+    line-height: 0.2em;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.ingredients {
+    color: darkgray;
+    font-size: 16px;
+}
+
+.ingredients, 
+.price {
+    font-family: sans-serif;
+}
+
+.price {
+    font-size: 16px;
+}
+
+.add-items {
+    padding-top: 75px;
+    align-items: flex-end;
+}
+
+.add {
+    background-color: white;
+    font-family: none;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+.add:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hidden class for when elements don't need to be displayed */
+
+.hidden {
+    display: none;
+}
+
+/* Order section */
+
+.order-items,
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.remove-btn {
+    width: 20%; 
+    border: none;
+    background-color: white;
+    color: darkgray;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 2px solid black;
+}
+
+.purchase-btn,
+.submit-btn {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #16DB99;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Modal */
+
+.modal-close-btn {
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 350px;
+    max-height: 400px;
+    padding: 1em;
+    border: 1px solid darkgray;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.modal-close-btn {
+    text-align: right;
+}
+
+.submit-btn {
+    width: 60%;
+}
